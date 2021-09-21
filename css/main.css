@@ -1,0 +1,333 @@
+/* Strat Global Rules */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input {
+  outline: none;
+}
+
+.main-color {
+  color: #f93;
+}
+
+.btn-bg-main {
+  background-color: #f93;
+}
+
+.bg-main {
+  background-color: rgba(223, 221, 221, 0.4);
+}
+
+/* Start navbar */
+.navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+
+/* Start header */
+.header {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../images/header.png");
+  height: 570px;
+  margin-top: 72px;
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.seperator1 {
+  height: 50px;
+}
+
+.header h1.title {
+  font-size: 50px;
+}
+
+.text p:first-of-type {
+  font-size: 25px;
+}
+
+.seperator2 {
+  border-bottom: 1px solid white;
+  width: 50px;
+}
+
+.text p:nth-of-type(2) {
+  font-size: 16px;
+}
+
+.header .download {
+  width: 110px;
+}
+
+.header form {
+  height: 300px;
+}
+
+.header form h2 {
+  font-size: 20px;
+}
+
+.header form input {
+  outline: none;
+}
+
+.header form button {
+  outline: none;
+  height: 45px;
+}
+
+@media (max-width: 576px) {
+  .header {
+    height: 870px;
+  }
+
+  .seperator2 {
+    width: 50%;
+  }
+}
+
+/* End header */
+
+/* Start social media */
+section.social-media p.description {
+  font-size: 14px;
+}
+
+.social-media ul li {
+  cursor: pointer;
+  font-size: 40px;
+  margin: 13px 25px;
+  filter: opacity(0.3);
+  transition: filter 0.5s ease-in-out;
+}
+
+.social-media ul li:hover {
+  filter: opacity(1);
+}
+
+@media (max-width: 991.98px) {
+  .social-media ul li {
+    font-size: 35px;
+  }
+}
+
+/* Start features */
+
+/* Start feature1 */
+.features .feature1 .tabs {
+  height: 250px;
+}
+
+.features .feature1 .tabs ul li {
+  background-color: #333;
+  cursor: pointer;
+  width: 115px;
+  height: 90px;
+}
+
+.features .feature1 .tabs ul .active {
+  background-color: #f93;
+  border-bottom-color: white;
+}
+
+.features .feature1 .text3 h2 {
+  font-size: 28px;
+}
+
+.features .feature1 .text3 button {
+  outline: none;
+  width: 115px;
+}
+
+/* Start feature2 */
+.features .feature2 .seperator3 {
+  width: 88px;
+  border-bottom: 2px solid #f93;
+}
+
+.features .feature2 .text4 p {
+  font-size: 13px;
+}
+
+.features .feature2 .text4 i {
+  border: 2px solid #f93;
+}
+
+/* Start feature3 */
+.features .feature3 .seperator4 {
+  width: 90px;
+  border-bottom: 2px solid #f93;
+}
+
+.features .feature3 p.description {
+  font-size: 16px;
+}
+
+/* End features */
+
+/* Start why this is awesome */
+.awesome .seperator5 {
+  width: 10%;
+  height: 2px;
+  background-color: #f93;
+  margin: 20px auto;
+}
+
+.awesome .container .row div i {
+  font-size: 35px;
+  border: 1px solid #f93;
+  width: 80px;
+}
+
+/* End why this is awesome */
+
+/* Start Pricing Options */
+.pricing .seperator6 {
+  width: 10%;
+  height: 2px;
+  background-color: #f93;
+}
+
+.pricing ul.list-group li:nth-child(2) {
+  border-bottom: 7px solid #f93;
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pricing ul.list-group li:nth-child(2) .dolar {
+  font-size: 45px;
+}
+
+.pricing ul.list-group li:nth-child(2) .note {
+  font-size: 18px;
+}
+
+/* Start what our customers are saying */
+.customer-saying .seperator7 {
+  width: 10%;
+  height: 2px;
+  background-color: #f93;
+}
+
+.customer-saying .person1 p::after,
+.customer-saying .person2 p::after,
+.customer-saying .person3 p::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-color: rgba(207, 207, 207, 0.3) transparent transparent;
+  position: absolute;
+  bottom: -30px;
+  left: 18px;
+}
+
+/* Start stylish */
+
+.stylish {
+  background-image: url('../images/stylish.png');
+  background-size: cover;
+  height: 450px;
+}
+
+.stylish .overlay2 {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.stylish .seperator8 {
+  width: 10%;
+  height: 2px;
+  background-color: white;
+  margin: 20px auto;
+}
+
+.stylish button.btn {
+  outline: none;
+  height: 45px;
+  width: 130px;
+  transition: 0.5s;
+}
+
+.stylish button.btn:hover {
+  background-color: #f93;
+}
+
+/* Start Contact US */
+section.contact-us h2.title {
+  font-size: 50px;
+}
+
+.contact-us .seperator9 {
+  width: 7%;
+  height: 2px;
+  background-color: #f93;
+}
+
+section.contact-us form.contact button.btn {
+  transition: 0.5s;
+}
+
+.contact-us form.contact button.btn:hover {
+  background-color: #fff;
+  color: #f93 !important;
+  border: 1px solid #f93;
+}
+
+/* Start Footer */
+.footer .social-icons ul.list-unstyled li i {
+  font-size: 25px;
+  filter: opacity(0.6);
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out;
+}
+
+.footer .social-icons ul.list-unstyled li i:hover {
+  filter: opacity(1);
+}
+
+.footer h6 {
+  font-size: 20px;
+}
+
+/* End Footer */
+#up {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 125px;
+  right: 20px;
+  cursor: pointer;
+}
