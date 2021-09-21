@@ -25,7 +25,11 @@ or
 [Demo](https://Ahmed-Alfaouq.github.io/AL.F.T-landing-page/)
 
 # Prerequisites
-You need some coding knowldge to understand this code.
+You need some coding knowldge in:
+* HTML
+* CSS
+* JS
+* Bootstrap
 
 # Setup
 1) Open command line
