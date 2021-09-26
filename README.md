@@ -13,7 +13,7 @@ Take a look now!
 
 # Getting started
 1) Open command line
-2) Type "git clone https://github.com/Ahmed-Alfaouq/AL.F.T-landing-page.git"
+2) Type "git clone https://github.com/ahmed-al-farouq/AL.F.T-landing-page.git"
 3) Enjoy!
 
 or 
@@ -22,7 +22,7 @@ or
 3) Have fun!
 
 # Live Demo
-[Demo](https://Ahmed-Alfaouq.github.io/AL.F.T-landing-page/)
+[Demo](https://ahmed-al-farouq.github.io/AL.F.T-landing-page/)
 
 # Prerequisites
 You need some coding knowldge in:
@@ -33,14 +33,14 @@ You need some coding knowldge in:
 
 # Setup
 1) Open command line
-2) Type "git clone https://github.com/Ahmed-Alfaouq/AL.F.T-landing-page.git"
+2) Type "git clone https://github.com/ahmed-al-farouq/AL.F.T-landing-page.git"
 3) Enjoy!
 
 # Authors
 :bearded_person: **Ahmed Omar**
-  - Github: [@Ahmed-Alfarouq](https://github.com/AhmedOmarAL-farouq)
-  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-omar912ba9199/)
-  - Twitter: [@twitter](https://twitter.com/mediocre23534)
+  - Github: [@Ahmed-Alfarouq](https://github.com/ahmed-al-farouq)
+  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-al-farouq/)
+  - Twitter: [@twitter](https://twitter.com/ahmed_al_farouq)
 
 # :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
